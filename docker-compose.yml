@@ -1,0 +1,6 @@
+app:
+  build: .
+  command: bash
+  volumes:
+    - .:/home/klee/app
+  stdin_open: true
