@@ -12,9 +12,9 @@ int main (int argc, char **argv) {
   while (b <= 10) {
     b = a;
     a = a * 2;
-  }  
+  }
 
-  // Some constraint that we whish to have satisfied
+  // Some constraint that we wish to have satisfied
   klee_assume(b <= a);
 
   return 0;

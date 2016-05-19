@@ -19,6 +19,6 @@ int main(int argc, char **argv) {
 
   buf[k] = '\0';
   printf("%s\n", buf);
-  
+
   return 0;
 }
